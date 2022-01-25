@@ -4,9 +4,11 @@ export const root = document.getElementById('root');
 //forms
 export const formSignIn = document.getElementById('form-signin');
 
-// modals
+// menu buttons
 export const menuSignOut = document.getElementById('menu-signout');
-
+export const menuHome = document.getElementById('menu-home');
+export const menuAbout = document.getElementById('menu-about');
+//modals
 export const modalSignin = new bootstrap.Modal(document.getElementById('modal-signin-form'),{backdrop:'static'});
 
 export const modalInfobox = {
