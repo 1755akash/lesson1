@@ -10,6 +10,7 @@ export const menuHome = document.getElementById('menu-home');
 export const menuAbout = document.getElementById('menu-about');
 //modals
 export const modalSignin = new bootstrap.Modal(document.getElementById('modal-signin-form'),{backdrop:'static'});
+export const formCreateThread = document.getElementById('form-create-thread');
 
 export const modalInfobox = {
     modal:new bootstrap.Modal(document.getElementById('modal-infobox'), {backdrop: 'static'}),
