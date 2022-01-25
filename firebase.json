@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site" : "cmsc4373-akethavath-1023a",
     "public": "public",
     "ignore": [
       "firebase.json",

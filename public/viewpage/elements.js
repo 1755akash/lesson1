@@ -17,3 +17,5 @@ export const modalInfobox = {
     title:document.getElementById('modal-infobox-title'),
     body:document.getElementById('modal-infobox-body'),
 }
+
+export const modalCreateThread = new bootstrap.Modal(document.getElementById('modal-create-thread'),{backdrop: 'static'});

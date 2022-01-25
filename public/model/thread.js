@@ -9,6 +9,10 @@ export class Thread{
         this.keywordsArray = data.keywordsArray;
     }
 
+    set_docId(id){
+        this.docId = id;
+    }
+
     // serialization
     toFirestore() {
         return{
